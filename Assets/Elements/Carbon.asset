@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2550946127ed44b2b3b49ef7f7030, type: 3}
   m_Name: Carbon
   m_EditorClassIdentifier: 
-  name: 
-  Sphere: {fileID: 0}
-  number: 0
-  mass: 0
-  protons: 0
-  neutrons: 0
-  valance: 0
-  electrons: 0
+  name: Carbon
+  Sphere: {fileID: 2362656836230196592, guid: c59512a52b8a8294390105f1e3b49991, type: 3}
+  number: 6
+  mass: 12.011
+  protons: 6
+  neutrons: 6
+  valance: 4
+  electrons: 6
   trivia: 
   shell: 
   diatomic: 0

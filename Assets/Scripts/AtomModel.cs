@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class AtomModel : MonoBehaviour
 {
+    //System values;
+    [SerializeField]
+    public GameObject Model;
+
+
     //All values that are guaranteed to be used.
     [SerializeField]
     public string name;

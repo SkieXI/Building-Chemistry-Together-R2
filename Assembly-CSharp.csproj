@@ -92,9 +92,7 @@
     <Compile Include="Assets\R1\031 Ga.cs" />
     <Compile Include="Assets\R1\Cl.cs" />
     <Compile Include="Assets\R1\H.cs" />
-    <Compile Include="Assets\Scripts\AtomFactory.cs" />
     <Compile Include="Assets\Scripts\AtomHolder.cs" />
-    <Compile Include="Assets\Scripts\AtomInterface.cs" />
     <Compile Include="Assets\Scripts\AtomModel.cs" />
     <Compile Include="Assets\Scripts\AtomScript.cs" />
     <Compile Include="Assets\Scripts\CreateAndDrag.cs" />
@@ -104,27 +102,29 @@
     <Compile Include="Assets\Scripts\EditTrayESub.cs" />
     <Compile Include="Assets\Scripts\EditTrayNAdd.cs" />
     <Compile Include="Assets\Scripts\EditTrayNSub.cs" />
-    <Compile Include="Assets\Scripts\GenericFactory.cs" />
+    <Compile Include="Assets\Scripts\Menus.cs" />
     <Compile Include="Assets\Scripts\midMath.cs" />
     <Compile Include="Assets\Scripts\MidMath1.cs" />
     <Compile Include="Assets\Scripts\prefabFacotry.cs" />
     <Compile Include="Assets\Scripts\Readout.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
+    <Compile Include="Assets\Scripts\TEST.cs" />
+    <Compile Include="Assets\Scripts\TEST2.cs" />
     <Compile Include="Assets\SpawnElement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -328,13 +328,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2019/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2550946127ed44b2b3b49ef7f7030, type: 3}
   m_Name: Boron
   m_EditorClassIdentifier: 
-  name: 
-  Sphere: {fileID: 0}
-  number: 0
-  mass: 0
-  protons: 0
-  neutrons: 0
-  valance: 0
-  electrons: 0
-  trivia: 
+  name: Boron
+  Sphere: {fileID: 1803657801608173464, guid: eff96c12e95b8074993ed4234567254c, type: 3}
+  number: 5
+  mass: 10.811
+  protons: 5
+  neutrons: 6
+  valance: 3
+  electrons: 5
+  trivia: Derp.
   shell: 
   diatomic: 0
   radioactive: 0

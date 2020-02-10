@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2550946127ed44b2b3b49ef7f7030, type: 3}
   m_Name: Beryllium
   m_EditorClassIdentifier: 
-  name: 
-  Sphere: {fileID: 0}
-  number: 0
-  mass: 0
-  protons: 0
-  neutrons: 0
-  valance: 0
-  electrons: 0
+  name: Beryllium
+  Sphere: {fileID: 358800348180521921, guid: 116326593dd73a24da398f08eabb7461, type: 3}
+  number: 3
+  mass: 9.012
+  protons: 4
+  neutrons: 5
+  valance: 2
+  electrons: 4
   trivia: 
   shell: 
   diatomic: 0

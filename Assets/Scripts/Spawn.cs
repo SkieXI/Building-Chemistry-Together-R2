@@ -10,13 +10,7 @@ public class Spawn : MonoBehaviour
     public AtomHolder atom;
 
     public List<GameObject> Total = new List<GameObject>();
-
-    //Factory patern.
-    // Start is called before the first frame update
-    public List<T> getList(List<T>)
-    {
-        return List<T>;
-    }
+    
 
     void addAtom(int intToAdd)
     {
@@ -31,7 +25,7 @@ public class Spawn : MonoBehaviour
 
 
         //Putting these elements into the list.
-        atom.AddComponent<mass>;
+        //atom.AddComponent<mass>;
     }
 
     void onMouseDown()
@@ -59,11 +53,6 @@ public class Spawn : MonoBehaviour
     {
         //Message to be displayed.
         Debug.Log("Mouse is letgo.");
-
-        if ()
-        {
-            Destroy(atom);
-        }
     }
 
 }

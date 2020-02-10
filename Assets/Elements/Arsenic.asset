@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2f2550946127ed44b2b3b49ef7f7030, type: 3}
-  m_Name: Hydrogen 1
+  m_Name: Arsenic
   m_EditorClassIdentifier: 
-  name: Hydrogen
+  name: Arsenic
   Sphere: {fileID: 0}
-  number: 1
-  mass: 1.008
-  protons: 1
-  neutrons: 0
-  valance: 2
-  electrons: 1
+  number: 33
+  mass: 74.9216
+  protons: 33
+  neutrons: 42
+  valance: 5
+  electrons: 33
   trivia: 
-  shell: 1
-  diatomic: 1
+  shell: 
+  diatomic: 0
   radioactive: 0

@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2550946127ed44b2b3b49ef7f7030, type: 3}
   m_Name: Lithium
   m_EditorClassIdentifier: 
-  name: 
-  Sphere: {fileID: 0}
-  number: 0
-  mass: 0
-  protons: 0
-  neutrons: 0
-  valance: 0
-  electrons: 0
+  name: Lithium
+  Sphere: {fileID: 1709110884219305524, guid: 832b85c1a330a594488a2dc16bb2c814, type: 3}
+  number: 3
+  mass: 6.941
+  protons: 3
+  neutrons: 4
+  valance: 1
+  electrons: 3
   trivia: 
   shell: 
   diatomic: 0

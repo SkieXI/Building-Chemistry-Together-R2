@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2550946127ed44b2b3b49ef7f7030, type: 3}
   m_Name: Nitrogen
   m_EditorClassIdentifier: 
-  name: 
-  Sphere: {fileID: 0}
-  number: 0
-  mass: 0
-  protons: 0
-  neutrons: 0
-  valance: 0
-  electrons: 0
+  name: Nitrogen
+  Sphere: {fileID: 5169161054291219029, guid: cc205095e6f318f4bb0361d682b4ac70, type: 3}
+  number: 7
+  mass: 14.007
+  protons: 7
+  neutrons: 7
+  valance: 3
+  electrons: 7
   trivia: 
   shell: 
-  diatomic: 0
+  diatomic: 1
   radioactive: 0
