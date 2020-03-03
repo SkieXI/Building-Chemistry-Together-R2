@@ -60,57 +60,72 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\R1\000 Template.cs" />
-    <Compile Include="Assets\R1\002 He.cs" />
-    <Compile Include="Assets\R1\003 Li.cs" />
-    <Compile Include="Assets\R1\004 Be.cs" />
-    <Compile Include="Assets\R1\005 B.cs" />
-    <Compile Include="Assets\R1\006 C.cs" />
-    <Compile Include="Assets\R1\007 N.cs" />
-    <Compile Include="Assets\R1\008 O.cs" />
-    <Compile Include="Assets\R1\009 F.cs" />
-    <Compile Include="Assets\R1\010 Ne.cs" />
-    <Compile Include="Assets\R1\011 Na.cs" />
-    <Compile Include="Assets\R1\012 Mg.cs" />
-    <Compile Include="Assets\R1\013 Al.cs" />
-    <Compile Include="Assets\R1\014 Si.cs" />
-    <Compile Include="Assets\R1\015 P.cs" />
-    <Compile Include="Assets\R1\016 S.cs" />
-    <Compile Include="Assets\R1\018 Ar.cs" />
-    <Compile Include="Assets\R1\019 K.cs" />
-    <Compile Include="Assets\R1\020 Ca.cs" />
-    <Compile Include="Assets\R1\021 Sc.cs" />
-    <Compile Include="Assets\R1\022 Ti.cs" />
-    <Compile Include="Assets\R1\023 V.cs" />
-    <Compile Include="Assets\R1\024 Cr.cs" />
-    <Compile Include="Assets\R1\025 Mn.cs" />
-    <Compile Include="Assets\R1\026 Fe.cs" />
-    <Compile Include="Assets\R1\027 Co.cs" />
-    <Compile Include="Assets\R1\028 Ni.cs" />
-    <Compile Include="Assets\R1\029 Cu.cs" />
-    <Compile Include="Assets\R1\030 Zn.cs" />
-    <Compile Include="Assets\R1\031 Ga.cs" />
-    <Compile Include="Assets\R1\Cl.cs" />
-    <Compile Include="Assets\R1\H.cs" />
+    <Compile Include="Assets\Makinom\DLL\Scripts\MakinomNetworkForwardComponent.cs" />
     <Compile Include="Assets\Scripts\AtomHolder.cs" />
     <Compile Include="Assets\Scripts\AtomModel.cs" />
     <Compile Include="Assets\Scripts\AtomScript.cs" />
-    <Compile Include="Assets\Scripts\CreateAndDrag.cs" />
-    <Compile Include="Assets\Scripts\EditTray.cs" />
-    <Compile Include="Assets\Scripts\EditTray1.cs" />
-    <Compile Include="Assets\Scripts\EditTrayEAdd.cs" />
-    <Compile Include="Assets\Scripts\EditTrayESub.cs" />
-    <Compile Include="Assets\Scripts\EditTrayNAdd.cs" />
-    <Compile Include="Assets\Scripts\EditTrayNSub.cs" />
-    <Compile Include="Assets\Scripts\Menus.cs" />
-    <Compile Include="Assets\Scripts\midMath.cs" />
-    <Compile Include="Assets\Scripts\MidMath1.cs" />
-    <Compile Include="Assets\Scripts\prefabFacotry.cs" />
-    <Compile Include="Assets\Scripts\Readout.cs" />
-    <Compile Include="Assets\Scripts\Spawn.cs" />
-    <Compile Include="Assets\Scripts\TEST.cs" />
-    <Compile Include="Assets\Scripts\TEST2.cs" />
+    <Compile Include="Assets\Scripts\DragDrop.cs" />
+    <Compile Include="Assets\Scripts\DropDown.cs" />
+    <Compile Include="Assets\Scripts\GameSaveManager.cs" />
+    <Compile Include="Assets\Scripts\MoleculeData.cs" />
+    <Compile Include="Assets\Scripts\OnQuit.cs" />
+    <Compile Include="Assets\Scripts\Tray1.cs" />
     <Compile Include="Assets\SpawnElement.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Makinom\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -326,6 +341,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Makinom">
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Assets/Makinom/DLL/Makinom.dll</HintPath>
+    </Reference>
+    <Reference Include="MakinomCore">
+      <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Assets/Makinom/DLL/MakinomCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/jleon/OneDrive/Desktop/Projects 2020/Building Chemistry Together R2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>

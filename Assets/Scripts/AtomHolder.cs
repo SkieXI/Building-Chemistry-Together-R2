@@ -4,7 +4,7 @@ using UnityEngine;
 
 //This code needs to be at the top of every class so that it can be created by right clicking on hte 
 [CreateAssetMenu(fileName = "NewElement", menuName = "New element")]
-public class AtomHolder : ScriptableObject
+public abstract class AtomHolder : ScriptableObject
 {
     //All values that are guaranteed to be used.
 
