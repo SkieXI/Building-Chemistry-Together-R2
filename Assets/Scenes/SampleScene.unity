@@ -16084,7 +16084,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728094302}
   m_LocalRotation: {x: 0.00045696867, y: 0.0005604247, z: -0.0039908234, w: 0.99999183}
-  m_LocalPosition: {x: 0, y: 0, z: -42}
+  m_LocalPosition: {x: 0, y: 0, z: -26}
   m_LocalScale: {x: 25, y: 25, z: 0}
   m_Children: []
   m_Father: {fileID: 1024572627}
@@ -16157,6 +16157,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   electronCount: 0
   atom: {fileID: 0}
+  OnEndDrag:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1731233486
 GameObject:
   m_ObjectHideFlags: 0

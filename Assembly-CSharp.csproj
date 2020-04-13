@@ -69,7 +69,6 @@
     <Compile Include="Assets\Scripts\GameSaveManager.cs" />
     <Compile Include="Assets\Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\MoleculeData.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\OnQuit.cs" />
     <Compile Include="Assets\Scripts\Tray1.cs" />
     <Compile Include="Assets\SpawnElement.cs" />

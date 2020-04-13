@@ -10,8 +10,11 @@ public class AtomModel : MonoBehaviour
 
 
     //All values that are guaranteed to be used.
+
+
     [SerializeField]
     public string name;
+    //Name of the atom.
     [SerializeField]
     public int number;
     [SerializeField]

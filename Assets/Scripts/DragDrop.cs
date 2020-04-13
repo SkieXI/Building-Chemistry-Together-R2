@@ -73,6 +73,7 @@ public class DragDrop : MonoBehaviour // IPointerDownHandler, IBeginDragHandler,
         Debug.Log("Just before not clicking on stuff.");
         OnEndDrag.Invoke();
         drag = false;
+        Destroy(this.gameObject);
     }
 
 
