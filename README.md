@@ -1,5 +1,3 @@
-![BCT](/Documentation/L1.png)
-
 # Building-Chemistry-Together
 Capstone Project for Spring 2020
 
@@ -73,7 +71,7 @@ As of the current build of the Buliding Chemistry Together, there are a lot of i
 
 There were a few features that were major hurdles from the very beginning that haulted development. For the first sprint, Weeks 1-3, they were dedicated to figuring out how to get an atom to spawn when a button was clicked. Sadly, there were many articles and turtorials on Unity that came close, but were flawed for our solutions. At one point, there was a glitch were if you click anywhere on the screen, an atom would spawn in the upper right corner of the screen, regardless of which button was pressed. Yet oddly enough, when you randomly clicked on the screen, you can see that the atoms spawned were somewhat in relation to the mouse's position. However, ultimatly this script was scrapped. Though I do regret removing it entierly as it did contain working code to actually spawning a object. 
 
-![The GUI](/Documentation/3B.png)
+![The GUI](/Documentation/3B.PNG)
 The menu in progress.
 
 The second sprint, weeks 3-5, were dedicated to refining the GUI of the project and getting a proper menu of options to appear in the top left corner. This also proved to be more of a hassle than intended as bugs and errors from the attempted atom spwaning scripts casued a number of compiling errors. Yet, when the menu came together and it expanded and folded up as intended, it was a huge moral boost. 
@@ -117,14 +115,7 @@ Another thing to note about entities is that there is still a lot of debate amon
 
 Beyond these new features, more functonality is being planned to be added in as time goes on. However, it is still unknown how soon development can truly resume considering that I currently do not have access to a relyable work space. 
 
+However, as my expierence with Unity increases, I will be sure to keep plugging away to add in more features and refine the expierence further. 
 
-
-# Graphs and Flowcharts.
-
-
-![Full Flowchart](/Documentation/2A.png)
-Full flowchart.
-
-![Wire Frame](/Documentation/3A.png)
-Proposed Wireframe. 
-
+![BCT](/Documentation/BCT.png)
+2020 Joe Leon.
