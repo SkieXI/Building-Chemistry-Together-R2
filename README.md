@@ -1,5 +1,3 @@
-![BCT](/Documentation/BCT.png)
-
 # Building-Chemistry-Together
 Capstone Project for Spring 2020
 
@@ -117,14 +115,7 @@ Another thing to note about entities is that there is still a lot of debate amon
 
 Beyond these new features, more functonality is being planned to be added in as time goes on. However, it is still unknown how soon development can truly resume considering that I currently do not have access to a relyable work space. 
 
+However, as my expierence with Unity increases, I will be sure to keep plugging away to add in more features and refine the expierence further. 
 
-
-# Graphs and Flowcharts.
-
-
-![Full Flowchart](/Documentation/2A.png)
-Full flowchart.
-
-![Wire Frame](/Documentation/3A.png)
-Proposed Wireframe. 
-
+![BCT](/Documentation/BCT.png)
+2020 Joe Leon.
