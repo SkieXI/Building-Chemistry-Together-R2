@@ -6,6 +6,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 /* Class used to save the game's current state for later.
  * Turtorial: https://www.youtube.com/watch?v=SNwPq01yHds | 14:57
+ * SaveDialogBox: https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-save-files-using-the-savefiledialog-component
+ * LoadDialogBox: https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?view=netframework-4.8
  * Joe Leon
  * 2-27-20
  */
@@ -60,5 +62,26 @@ public class GameSaveManager : MonoBehaviour
         FileStream file = File.Create(Application.persistentDataPath + "/SaveData/BCTSAVE.BCT");
         var Json = JsonUtility.ToJson(Molucule);
         file.Close();
+    }
+
+    public AtomHolder LoadGame()
+    {
+        string path = Application.persistentDataPath + "/SaveData/BCTSAVE.BCT";
+
+        if (File.Exists(path))
+        {
+            BinaryFormatter form = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            AtomHolder atom = form.Deserialize(stream) as AtomHolder;
+            stream.Close();
+
+            return atom;
+        }
+        else
+        {
+            Debug.Log("File not found!");
+            return null;
+        }
     }
 }
